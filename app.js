@@ -6,8 +6,12 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var todos = require('./routes/todos');
 var cloud = require('./cloud');
+var morgan = require('morgan');
 
 var app = express();
+
+// log 输出
+app.use(morgan('dev'));
 
 // 设置 view 引擎
 app.set('views', path.join(__dirname, 'views'));

@@ -1,6 +1,6 @@
-export LC_APP_ID=<your app id>
-export LC_APP_KEY=<your app key>
-export LC_APP_MASTER_KEY=<your master key>
+export LC_APP_ID=vnk2m7z9n75mg3h8oy0d5895bm1ox1oyqhi8bmb02rxiphbd
+export LC_APP_KEY=amd2ixkwt93gk8r6s04h7dsd8s7kxvo1nt9spzaclwywl84w
+export LC_APP_MASTER_KEY=lro3eh2cifbyax3dyudj011n2hsxgfex32sn4z1f7o4bj4pt
 export LC_APP_PORT=3000
 
 npm start
